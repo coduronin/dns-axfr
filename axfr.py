@@ -28,7 +28,7 @@ def AXFR(domain, nameserver):
 if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(
-        prog="dns-axfr.py",
+        prog="axfr.py",
         epilog="DNS Zonetransfer Script",
         usage="dns-axfr.py [options] -d <DOMAIN>",
         prefix_chars="-",
@@ -39,7 +39,7 @@ if __name__ == "__main__":
         action="store",
         metavar="Domain",
         type=str,
-        help="Target Domain.\tExample: inlanefreight.htb",
+        help="Target Domain",
         required=True
     )
     parser.add_argument(
@@ -47,13 +47,13 @@ if __name__ == "__main__":
         action="store",
         metavar="Nameserver",
         type=str,
-        help="Nameservers separated by a comma.\tExample: ns1.inlanefreight.htb,ns2.inlanefreight.htb"
+        help="Nameservers separated by a comma."
     )
     parser.add_argument(
         "-v",
         action="version",
         version="DNS-AXFR - v1.0",
-        help="Prints the version of DNS-AXFR.py"
+        help="Prints the version of axfr.py"
     )
     args = parser.parse_args()
 
