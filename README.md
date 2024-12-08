@@ -39,12 +39,12 @@ Navigate to the script directory:
 
 Run the script with the following parameters:
   ```bash
-  python3 dns-axfr.py -d <domain> -n <nameserver>
+  python3 axfr.py -d <domain> -n <nameserver>
   ```
 
 ### Example:
   ```bash
-  python3 dns-axfr.py -d zonetransfer.me -n intns1.zonetransfer.me
+  python3 axfr.py -d zonetransfer.me -n intns1.zonetransfer.me
   ```
 
 ---
