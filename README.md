@@ -25,12 +25,12 @@ This script automates DNS zone transfer attempts using Python's `dnspython` libr
 
 Clone the repository from GitHub:
   ```bash
-  git clone https://github.com/yourusername/repository-name.git
+  git clone https://github.com/izzatmammadzada/dns-axfr
   ```
 
 Navigate to the script directory:
   ```bash
-  cd repository-name
+  cd dns-axfr
   ```
 
 ---
@@ -39,12 +39,12 @@ Navigate to the script directory:
 
 Run the script with the following parameters:
   ```bash
-  python dns-axfr.py -d <domain> -n <nameserver>
+  python3 dns-axfr.py -d <domain> -n <nameserver>
   ```
 
 ### Example:
   ```bash
-  python dns-axfr.py -d zonetransfer.me -n intns1.zonetransfer.me
+  python3 dns-axfr.py -d zonetransfer.me -n intns1.zonetransfer.me
   ```
 
 ---
