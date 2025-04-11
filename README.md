@@ -25,7 +25,7 @@ This script automates DNS zone transfer attempts using Python's `dnspython` libr
 
 Clone the repository from GitHub:
   ```bash
-  git clone https://github.com/izzatmammadzada/dns-axfr
+  git clone https://github.com/coduronin/dns-axfr
   ```
 
 Navigate to the script directory:
@@ -71,7 +71,7 @@ Run the script with the following parameters:
 Zone transfers (`AXFR`) replicate DNS zones between servers. Misconfigured nameservers may expose sensitive domain data.
 
 **Want to learn more?**  
-Read my detailed blog post: [Understanding DNS Zone Transfers](https://medium.com/@izzatmammadzada/domain-name-system-dns-8cb2667c1d02).
+Read my detailed blog post: [Understanding DNS Zone Transfers](https://medium.com/@coduronin/domain-name-system-dns-8cb2667c1d02).
 
 ---
 
